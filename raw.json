@@ -1,0 +1,50 @@
+[
+  {
+    "index": 1,
+    "type": "group",
+    "objects": [
+      {
+        "type": "group",
+        "objects": [
+          {
+            "type": "c-text",
+            "text": "Enter Text Here"
+          },
+          {
+            "type": "group",
+            "objects": [
+              {
+                "type": "c-text",
+                "text": "Enter Text Here"
+              },
+              {
+                "type": "c-text",
+                "text": "Enter Text Here"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "c-text",
+        "text": "Enter Text Here"
+      }
+    ],
+    "name": "Layer group"
+  },
+  {
+    "index": 0,
+    "type": "group",
+    "objects": [
+      {
+        "type": "c-text",
+        "text": "Enter Text Here"
+      },
+      {
+        "type": "c-text",
+        "text": "Enter Text Here"
+      }
+    ],
+    "name": "Layer group"
+  }
+]
