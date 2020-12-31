@@ -7,44 +7,44 @@
         "type": "group",
         "objects": [
           {
-            "type": "c-text",
-            "text": "Enter Text Here"
+            "type": "child",
+            "text": "child name"
           },
           {
             "type": "group",
             "objects": [
               {
-                "type": "c-text",
-                "text": "Enter Text Here"
+                "type": "child",
+                "text": "child name"
               },
               {
-                "type": "c-text",
-                "text": "Enter Text Here"
+                "type": "child",
+                "text": "child name"
               }
             ]
           }
         ]
       },
       {
-        "type": "c-text",
-        "text": "Enter Text Here"
+        "type": "child",
+        "text": "child name"
       }
     ],
-    "name": "Layer group"
+    "name": "group"
   },
   {
     "index": 0,
     "type": "group",
     "objects": [
       {
-        "type": "c-text",
-        "text": "Enter Text Here"
+        "type": "child",
+        "text": "child name"
       },
       {
-        "type": "c-text",
-        "text": "Enter Text Here"
+        "type": "child",
+        "text": "child name"
       }
     ],
-    "name": "Layer group"
+    "name": "group"
   }
 ]

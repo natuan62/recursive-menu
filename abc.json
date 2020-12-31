@@ -1,1 +1,38 @@
-{"objects":[{"index":1,"type":"group","objects":[{"type":"group","objects":[{"type":"c-text","text":"Enter Text Here","id":3},{"type":"group","objects":[{"type":"c-text","text":"Enter Text Here","id":5},{"type":"c-text","text":"Enter Text Here","id":6}],"id":4}],"id":2},{"type":"c-text","text":"Enter Text Here","id":7}],"name":"Layer group","id":1},{"index":0,"type":"group","objects":[{"type":"c-text","text":"Enter Text Here","id":9},{"type":"c-text","text":"Enter Text Here","id":10}],"name":"Layer group","id":8}]}
+{
+  "objects": [
+    {
+      "index": 1,
+      "type": "group",
+      "objects": [
+        {
+          "type": "group",
+          "objects": [
+            { "type": "child", "text": "child name", "id": 3 },
+            {
+              "type": "group",
+              "objects": [
+                { "type": "child", "text": "child name", "id": 5 },
+                { "type": "child", "text": "child name", "id": 6 }
+              ],
+              "id": 4
+            }
+          ],
+          "id": 2
+        },
+        { "type": "child", "text": "child name", "id": 7 }
+      ],
+      "name": "group",
+      "id": 1
+    },
+    {
+      "index": 0,
+      "type": "group",
+      "objects": [
+        { "type": "child", "text": "child name", "id": 9 },
+        { "type": "child", "text": "child name", "id": 10 }
+      ],
+      "name": "group",
+      "id": 8
+    }
+  ]
+}

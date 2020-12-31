@@ -22,7 +22,7 @@ export default {
   },
   setup() {
     const raw = data;
-    const rename = ref("Anh Tuan");
+    const rename = ref("anhtuan");
 
     const editable = ref([]);
     const incre = ref(0);
